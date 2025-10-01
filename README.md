@@ -26,11 +26,6 @@ It can speak whatever you type, open websites like Google or YouTube, and has a 
 
 ---
 
-## 📸 Screenshots
-*(Add screenshots of welcome page and chat page here)*
-
----
-
 ## ⚙️ For Developers
 If you want to run from source instead of the EXE:  
 1. Install Python (3.10+ recommended)  
