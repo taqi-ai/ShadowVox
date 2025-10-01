@@ -1,34 +1,39 @@
-# ShadowVox v1.0
+# ShadowVox v2.0 🎙️
 
-🚀 ShadowVox is a mini text-to-speech assistant inspired by J.A.R.V.I.S, developed by **ShadowByte** and powered by **T4Qi Core**.  
-It can speak anything you type, respond to special commands, and exit gracefully.
+**Powered by T4Qi Core | Developed by ShadowByte**
 
----
-
-## ✨ Features
-- 🎙️ Speaks any sentence you type
-- 🔑 Quit with `!`, `exit`, or `quit`
-- ℹ️ Type `about` to hear assistant details
-- 🖥️ Runs as a standalone EXE (no Python required)
-- 📝 Source code included for learning & contribution
+ShadowVox is a simple **voice assistant app**.  
+It can speak whatever you type, open websites like Google or YouTube, and has a few hidden Easter eggs for fun.  
 
 ---
 
-## 📂 Repository Contents
-- `ShadowVox1.0.py` → Source code (Python 3)
-- `dist/ShadowVox1.0.exe` → Standalone Windows executable
-- `build/` → Auto-generated build files (can be ignored)
+## 🔽 Download & Use (No Setup Needed)
+- Download **ShadowVox2.0.exe** from the `dist/` folder (or Releases).  
+- Double-click it → the app starts.  
+- No Python, no installation, nothing extra required. ✅  
 
 ---
 
-## 🚀 How to Run
-### Option 1: Run EXE (Recommended for normal users)
-1. Download the latest release from [Releases](./releases).  
-2. Double-click `ShadowVox1.0.exe`.  
-3. Start typing and ShadowVox will speak back to you.
+## 🖥️ Features
+- GUI with **Start screen + Chat screen**  
+- Speak anything you type  
+- Special commands:  
+  - `about` → Info about ShadowVox  
+  - `quit` / `exit` → Close the app  
+  - `open google` → Launches Google  
+  - `open youtube` → Launches YouTube  
+  - `hello`, `who are you`, `joke` → Easter eggs 🎉  
 
-### Option 2: Run Source Code (For developers)
-1. Install Python 3.10+  
+---
+
+## 📸 Screenshots
+*(Add screenshots of welcome page and chat page here)*
+
+---
+
+## ⚙️ For Developers
+If you want to run from source instead of the EXE:  
+1. Install Python (3.10+ recommended)  
 2. Install dependency:
    ```bash
    pip install pyttsx3
